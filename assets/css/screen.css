@@ -183,6 +183,14 @@ section.recent-posts {
     border-radius: 100%;
 }
 
+.author-full {
+  width: 150px;
+  height: 150px;
+  margin-right: 13px;
+  margin-left: 13px;
+  border-radius: 100%;
+}
+
 .post-top-meta {
     margin-bottom: 2rem;
 }
