@@ -18,7 +18,7 @@ permalink: /about
     </p><br />
     <p>When I'm not coding, you'll probably find me on a badminton court, playing a game of chess, or sharpening my fooball
     skills. I also have a deep love for music—I've been playing the violin for about 15 years and was honored to receive
-    a scholarship from the Indian government (HRD ministry) for my talent. It's been a rewarding journey balancing both
+    a scholarship from the Indian government (Ministry of HRD). It's been a rewarding journey balancing both
     my technical and musical interests.
     </p><br/>
   </div>
