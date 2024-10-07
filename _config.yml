@@ -3,6 +3,7 @@ name: "Kabir Pathak"
 title: "Kabir Pathak"
 description: "Hey there! Welcome to my blog. I post every week, so stay tuned."
 logo: 'assets/images/logo.png'
+avatar: 'assets/images/avatar.jpg'
 favicon: 'assets/images/logo.png'
 baseurl: ''
 include: ["_pages"]
