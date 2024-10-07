@@ -5,7 +5,7 @@ tldr:
 modified: 2024-09-27 16:03:24 +0530
 category: tech
 tags: [Ruby, Splat, Double Splat]
-featured: true
+featured: false
 rating: 5
 author: kabir 
 image: assets/images/tech/splat.png
