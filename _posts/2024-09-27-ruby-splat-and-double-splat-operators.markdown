@@ -2,7 +2,7 @@
 layout: post
 title: "Ruby Splat(*) and Double Splat(**) Operators"
 tldr: 
-modified: 2024-10-01 16:03:24 +0530
+modified: 2024-09-27 16:03:24 +0530
 category: tech
 tags: [Ruby, Splat, Double Splat]
 featured: true
