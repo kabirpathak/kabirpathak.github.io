@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: no_header
 disqus: false
 archive: false
 post_class: post-template
@@ -20,23 +20,7 @@ post_class: post-template
 
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
-
-                <!-- Author Box -->
-                {% if page.author %}
-                <div class="row post-top-meta">
-                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
-                      <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
-                    </div>
-                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                        <a target="_blank" class="link-dark" href="{{ author.linkedin }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.linkedin }}" class="btn follow">Follow</a>
-                        <span class="col-12 p-0 author-description">{{ author.description }}</span>
-                    </div>
-                </div>
-                {% endif %}
-
-                <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
-
             </div>
 
             <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
@@ -72,24 +56,41 @@ post_class: post-template
                 <!-- End Toc -->
                 {{content}}
             </div>
+            <!-- <div class="row">            -->
+              <!-- <div class="col-md-6"> -->
 
+                <!-- Author Box -->
+              <!--   {% if page.author %} -->
+              <!--   <div class="row post-top-meta"> -->
+              <!--       <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0"> -->
+              <!--         <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}"> -->
+              <!--       </div> -->
+              <!--       <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left"> -->
+              <!--           <a target="_blank" class="link-dark" href="{{ author.linkedin }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.linkedin }}" class="btn follow">Follow</a> -->
+              <!--           <span class="col-12 p-0 author-description">{{ author.description }}</span> -->
+              <!--       </div> -->
+              <!--   </div> -->
+              <!--   {% endif %} -->
+              <!-- </div> -->
+
+  
             <!-- Rating -->
-            {% if page.rating %}
-            <div class="rating mb-4 d-flex align-items-center">
-                <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
-            </div>
-            {% endif %}
+              {% if page.rating %}
+              <div class="rating mb-4 d-flex align-items-center">
+                  <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
+              </div>
+              {% endif %}
 
             <!-- Post Date -->
-            <p>
-            <small>
+              <p>
+              <small>
                 <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
                 {% if page.last_modified_at %}
                 (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
                 {% endif %}
                 </small>
-            </p>
-
+              </p>
+            <!-- </div> -->
             <!-- Post Categories -->
             <div class="after-post-cats">
                 <ul class="tags mb-4">
@@ -118,12 +119,6 @@ post_class: post-template
 
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
-            {% if page.previous.url %}
-            <a class="prev d-block col-md-6" href="{{ site.baseurl }}/{{page.previous.url}}"> &laquo; {{page.previous.title}}</a>
-            {% endif %}
-            {% if page.next.url %}
-            <a class="next d-block col-md-6 text-lg-right" href="{{ site.baseurl }}/{{page.next.url}}">{{page.next.title}} &raquo; </a>
-            {% endif %}
             <div class="clearfix"></div>
             </div>
             <!-- End Categories -->
