@@ -1,14 +1,59 @@
-title: Kabir Pathak
-email: kabirpathak99@gmail.com
-description: >-
-  Hello and welcome to my blog. I post all my blogs - tech or non-tech here.
-  I usually post one blog per week, so stay tuned!
-baseurl: "" 
-url: "https://kabirpathak.github.io"
-github_username: kabirpathak
+# Site
+name: "Kabir Pathak"
+title: "Kabir Pathak"
+description: "Hey there! Welcome to my blog. I post every week, so stay tuned."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+include: ["_pages"]
+permalink: /:title/
 
-# Build settings
-markdown: kramdown
-theme: minima
+# Authors
+authors:
+  kabir:
+    name: Kabir Pathak
+    display_name: Kabir
+    email: kabirpathak99@gmail.com
+    medium: 'https://medium.com/@kabirpathak99'
+    linkedin: 'https://www.linkedin.com/in/kabir-pathak-0507a4187/'
+    web: 'https://kabirpathak.github.io'
+    description: "The dude abides."
+
+# Plugins
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+# adsense: "disabled"
+# adsense-data-ad-client: "ca-pub-3412143450191416"
+# adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
