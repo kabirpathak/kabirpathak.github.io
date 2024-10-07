@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page_without_heading
 title: "Book review: Never let me go - Kazuo Ishiguro"
 tldr: 
 modified: 2024-09-27 16:03:24 +0530
