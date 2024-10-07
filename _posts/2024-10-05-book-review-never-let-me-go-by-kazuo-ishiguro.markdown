@@ -6,16 +6,12 @@ modified: 2024-09-27 16:03:24 +0530
 category: book-review
 tags: [Kazuo Ishiguro, Haruki Murakami, Book Review]
 author: kabir 
+image: assets/images/book_review/murakami-vs-ishiguro.png
 ---
-
 
 I was recently given 2 books as a gift by a close friend, who is a great fan of Murakami’s. The books in question are “Norwegian woods” by Murakami and “Never Let Me Go” by Kazuo Ishiguro.
 
 The task was to read both of these books, and to validate the said friend’s belief that Murakami,as an author, is far superior to Ishiguro. Being a die-hard Murakami fan, she told me beforehand that “Norwegian Woods” is Murakami’s only story without any magical realism, and probably one of his lesser works, while on the other hand, “Never Let Me Go” is Ishiguro’s finest.
-
-<div style=" text-align:center;">
-  <img src="{{site.baseurl}}/images/book_review/murakami-vs-ishiguro.png" style="width: 80%; max-width: 400px;margin: 5%"/>
-</div>
 
 
 So you see, the balance was already distorted. Comparing Ishiguro’s finest to Murakami’s worst? Only to prove that Murakami was still the better author! Being a fan of neither, but a true friend, I believed what I was told, and picked up “Norwegian Woods” first.
@@ -43,7 +39,7 @@ Like I said above, I found the tone to be child-like. But only after I was engro
 The book makes you go through a variety of emotions - love, jealousy, hatred, apathy, sympathy, and a plethora of others. There were times when I had tears in my eyes reading the book, only to feel hopeful a couple of pages later. And a few more pages down the line, I would go from being hopeful to feeling completely hopeless. 
 
 <div style=" text-align:center;" width="30px">
-  <img src="{{site.baseurl}}/images/book_review/kazuo-ishiguro-never-let-me-go.png" style="width: 60%; max-width: 400px;margin: 5%"/>
+  <img src="{{site.baseurl}}/assets/images/book_review/kazuo-ishiguro-never-let-me-go.png" style="width: 60%; max-width: 400px;margin: 5%"/>
 </div>
 
 In particular, I loved the character of “Ruth”. A fighter, a leader, a go-getter. Someone who wanted to belong. Someone who wanted to be validated or accepted by others. 
