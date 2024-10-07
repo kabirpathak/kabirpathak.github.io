@@ -9,7 +9,7 @@ permalink: /about
     <p>Hi, I'm Kabir Pathak, a Senior Full Stack Developer at eLitmus, where I primarily work with Ruby on Rails and React.
     I'm passionate about building efficient, scalable web applications and enjoy the collaborative, problem-solving
     nature of software development. I'm also an active contributor to the open-source community, particularly within the
-    Ruby on Rails ecosystem. Contributing to open-source allows me to both give back and continue learning from other
+    Ruby on Rails ecosystem. Contributing to <a href="https://github.com/users/kabirpathak/projects/1" target="_blank">open-source</a> allows me to both give back and continue learning from other
     developers across the globe.</p>
     <br />
     <p>In my free time, I take part in competitive coding to keep sharpening my problem-solving skills and often dive into
