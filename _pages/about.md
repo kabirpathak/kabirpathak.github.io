@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_without_heading
 title: About the author
 permalink: /about
 ---
