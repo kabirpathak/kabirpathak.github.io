@@ -5,6 +5,8 @@ tldr:
 modified: 2024-09-27 16:03:24 +0530
 category: book-review
 tags: [Kazuo Ishiguro, Haruki Murakami, Book Review]
+featured: true
+rating: 5
 author: kabir 
 image: assets/images/book_review/murakami-vs-ishiguro.png
 ---
