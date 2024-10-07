@@ -122,7 +122,7 @@ SELECT "posts".* FROM "posts" WHERE "posts"."published" = TRUE
 SELECT "comments".* FROM "comments" WHERE "comments"."post_id" IN (1, 3..N)
 ```
 
-If you need to filter or sort based on the associated records, it won’t be possible to do so with .preload because the original model and the associations are loaded in separate queries.
+If you need to filter or sort based on the associated records, it won’t be possible to do so with `.preload` because the original model and the associations are loaded in separate queries.
 
 ##### Eager Load
 `.eager_load` forces Rails to perform a single query with LEFT OUTER JOIN to fetch both the main and associated records.
@@ -143,9 +143,9 @@ WHERE (comments.created_at >= '2024-09-26 00:00:00')
 However, a single large query with joins can be slower for large datasets, especially if there are many associated records.
 
 ##### Includes
-`includes` is flexible— it can either perform eager loading by issuing multiple queries (like preload) or a single query with a LEFT OUTER JOIN (like eager_load), depending on the situation.
+`includes` is flexible— it can either perform eager loading by issuing multiple queries (like `preload`) or a single query with a LEFT OUTER JOIN (like `eager_load`), depending on the situation.
 
-If you want to leave the choice to Rails, regarding whether a single query or separate queries are required to fetch the original model and the associations, then includes is what you need!
+If you want to leave the choice to Rails, regarding whether a single query or separate queries are required to fetch the original model and the associations, then `includes` is what you need!
 
 *Here’s an example:*
 
@@ -215,9 +215,9 @@ end
 ### Summary
 - Use Lazy Loading when you are sure you won’t need associated records.
 - Use Eager Loading when you need associated records upfront.
-  - Use .preload wen you want to avoid N+1 without filtering/sorting.
-  - Use .eager_load when you need to filter/sort based on associated records.
-  - Use .includes when you want Rails to choose the best method for loading.
+  - Use `.preload` wen you want to avoid N+1 without filtering/sorting.
+  - Use `.eager_load` when you need to filter/sort based on associated records.
+  - Use `.includes` when you want Rails to choose the best method for loading.
 
 Hope this blog was helpful to you! See you in the next one.
 
