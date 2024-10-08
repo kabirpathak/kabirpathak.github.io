@@ -3,7 +3,7 @@ layout: post
 title: "Book review: Never let me go - Kazuo Ishiguro"
 tldr: 
 modified: 2024-09-27 16:03:24 +0530
-category: book-review
+category: non-tech
 tags: [Kazuo Ishiguro, Haruki Murakami, Book Review]
 featured: true
 rating: 5

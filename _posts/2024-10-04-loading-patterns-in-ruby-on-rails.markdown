@@ -5,7 +5,7 @@ tldr:
 modified: 2024-10-04 16:03:24 +0530
 category: tech
 tags: [Ruby On Rails, Lazy Loading, Eager Loading, Strict Loading, N+1 Queries]
-featured: true
+featured: false
 rating: 5
 author: kabir 
 image: assets/images/tech/loadingpatterns.png
