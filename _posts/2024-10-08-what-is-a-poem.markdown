@@ -2,7 +2,7 @@
 layout: post
 title: "What is a poem?"
 tldr: 
-modified: 2024-10-09 03:05:24 +0530
+modified: 2024-10-08 03:05:24 +0530
 category: non-tech
 tags: [sher-o-shayari, poetry]
 featured: true
@@ -44,7 +44,7 @@ One of his works that has stayed with me to this day is:
 
 I think that now, when I read new poems and look up difficult words in a dictionary, I'm transported back to those times.
 
-> अंधेरों से कह दो बचपन बीत चुका है<br />अब तुझ से डर नहीं सुकून मिलता है..
+> अंधेरे से कह दो बचपन बीत चुका है<br />अब तुझ से डर नहीं सुकून मिलता है..
 >
 > - Gulzar
 
