@@ -1,7 +1,7 @@
 ### Overview: 
 Hi, this is my blog.
 This has been created and hosted using Jekyll and github-pages respectively.
-I've used the [mediumish](https://github.com/wowthemesnet/mediumish-theme-jekyll), with some changes.
+I've used the [mediumish](https://github.com/wowthemesnet/mediumish-theme-jekyll) theme, with some changes.
 
 Hosted here: https://kabirpathak.github.io
 
@@ -20,6 +20,7 @@ what process I used to follow. Don't judge me.
 - `bundle install`
 - `bundle exec jekyll serve`
 
-Also, looks like jekyll serve runs in watch mode. So, i *can* run a server while simultaneously making code changes.
+Also, looks like jekyll serve runs in watch mode.
+So, I **can** run a server while simultaneously making code changes.
 
 ---
