@@ -5,7 +5,7 @@ tldr:
 modified: 2024-10-08 03:05:24 +0530
 category: non-tech
 tags: [sher-o-shayari, poetry]
-featured: true
+featured: false
 rating: 5
 author: kabir 
 image: assets/images/non_tech/whatisapoem.png
